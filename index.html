@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Música</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="top">
+            <i class="menu-btn">&#9776;</i>
+            
+        </div>
+
+        <div class="cover-image"></div>
+        <div class="player-body"></div>
+
+        <div class="list-wrapper">
+            <table class="list" id="playlist">
+                <tr class="song">
+                    <td class="no">
+                        <h6>1</h6>
+                    </td>
+                    <td class="title">
+                        <h6>song title</h2>
+                    </td>
+                    <td class="length">
+                        <h6>2:03</h2>
+                    </td>
+                    <td>
+                        <i class="fas fa-heart">&#10084;</i>
+                    </td>
+                </tr>
+                
+            </table>
+        </div>
+
+        <div class="bar">
+            <div class="dot"></div>
+            <div class="time">
+                <h5 class="current-time">0:00</h6>
+                <h5 class="duration">0:00</h6>
+            </div>
+            
+        </div>
+
+        <!--Contém as informações da música -->
+        <div class="info">
+            <h2>song title</h2>
+            <h3>artist</h3>
+        </div>
+        
+        <!-- Aqui está os cotroles do player -->
+        <div class="controls">
+            <p class="fas fa-backward" id="prev">&#8678;</p>
+            <p class="fas fa-play" id="playPause">&#9654;</p>
+            <p class="fas fa-forward" id="next">&#8680;</p>
+        </div>
+
+        <!--controles para favoritar, randomizar, repetir etc..-->
+        <div class="more-controls">
+            <p class="favoritar" id="current-favorite">&#10084;</p>
+            <p class="fas fa-random" id="shuffle">&#8633;</p>
+            <p class="fas fa-repeat" id="repeat">&#8634;<p>
+            <p class="fas fa-gear" id="options">&#9881;</p>
+        </div>
+
+        <p class="current-song-title">
+            song title
+        </p>
+    </div>
+
+    <script src="script.js"></script>
+    
+</body>
+</html>
